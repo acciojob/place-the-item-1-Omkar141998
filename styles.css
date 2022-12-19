@@ -7,7 +7,7 @@
     grid-column-end: auto;
 }
 .holder{
-    display:grid;
+    display:flex;
     row-gap: 10px;
     column-gap: 10px;
     background-color: bisque;
