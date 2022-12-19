@@ -1,9 +1,13 @@
 
 /* Your CSS Code here. */
+.item{
+    grid-row-start: auto;
+    letter-spacing: normal;
+    grid-row-end: auto;
+    grid-column-end: auto;
+}
 .holder{
     display:grid;
-    grid-template-columns: repeat(2, 200px);
-    grid-template-rows: repeat(2, 200px);
     row-gap: 10px;
     column-gap: 10px;
     background-color: bisque;
@@ -12,7 +16,3 @@
     align-items: center;
 }
 
-.item{
-    background-color: aqua;
-    height: 100px;
-}
